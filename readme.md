@@ -33,6 +33,7 @@ There's an Ant build file included to compile to a JAR, but I ran out of time to
 ##TODO
 Things I didn't have time to do:
 * Add more unit tests
+* Run the unit tests from the command line build via Ant
 * Error handing - at the moment attempting to move outside the bounds of the plateau results in a fatal Exception. This could be handled more gracefully.
 * Add the ability to feed in input data from a file
 * Add the ability to have multiple robots on a plateau, and check that a robot is not already occupying a position when trying to move another robot to it.
